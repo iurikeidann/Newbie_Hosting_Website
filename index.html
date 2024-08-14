@@ -37,20 +37,20 @@
 
 	<!---------------- Navigation ---------------->
 
-	<nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+	<section id="nav-bar">
 
-		<div class="container-fluid">
+		<nav class="navbar navbar-expand-lg navbar-light">
+            <a class="navbar-brand" href="#"><img src="assets/logo.png"></a>
 
-			<a class="navbar-brand" href="#"><img src="assets/logo.png"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fa fa-bars" aria-hidden="false"></i>
+            </button>
 
-			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="navbarResponsive">
-				<span class="navbar-toggler-icon"></span>
-			</button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
 
-			<div class="collapse navbar-collapse" id="navbarResponsive">
-				<ul class="navbar-nav ml-auto">
-
-					<li class="nav-item active">
+					<li class="nav-item">
 						<a class="nav-link" href="#">Home</a>
 					</li>
 
@@ -58,15 +58,15 @@
 						<a class="nav-link" href="#">About</a>
 					</li>
 
-					<li class="nav-item active">
+					<li class="nav-item">
 						<a class="nav-link" href="#">Services</a>
 					</li>
 
-					<li class="nav-item active">
+					<li class="nav-item">
 						<a class="nav-link" href="#">Team</a>
 					</li>
 
-					<li class="nav-item active">
+					<li class="nav-item">
 						<a class="nav-link" href="#">Connect</a>
 					</li>
 
@@ -77,6 +77,8 @@
 		</div>
 
 	</nav>
+
+	</section>
 
 	<!---------------- Image Slider ---------------->
 
@@ -159,7 +161,7 @@
 
 	<!---------------- Three Column Section ---------------->
 
-	<div class="container-fluid padding" id="tech_container">
+	<div class="container-fluid padding">
 
 		<div class="row text-center padding">
 
@@ -173,17 +175,12 @@
 				<i class="fas fa-bold"></i>
 				<h3>BOOTSTRAP</h3>
 				<p>Built with the latest version of Bootstrap, Bootstrap 4.</p>
-				
-				<div>
+			</div>
 
-					<div class="col-sm-12 col-md-4">
-						<i class="fab fa-css3"></i>
-						<h3>CSS3</h3>
-						<p>Built with the Latest version of CSS, CSS3.</p>
-					</div>
-
-				</div>
-
+			<div class="col-sm-12 col-md-4">
+				<i class="fab fa-css3"></i>
+				<h3>CSS3</h3>
+				<p>Built with the Latest version of CSS, CSS3.</p>
 			</div>
 
 		</div>

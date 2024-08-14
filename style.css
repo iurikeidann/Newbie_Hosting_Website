@@ -158,6 +158,11 @@ hr.light-100 {
   margin-bottom: 1rem;
 }
 
+.container-fluid {
+  align-items: center;
+  text-align: center;
+}
+
 /*---Media Queries --*/
 @media (max-width: 992px) {
   .social a {
